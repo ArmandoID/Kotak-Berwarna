@@ -6,3 +6,9 @@ boxes.forEach((box, index) => {
     box.style.background = colors[index];
   }, (index + 1) * 1000);
 });
+
+boxes.forEach((box, index) => {
+  setTimeout(() => {
+    box.style.borderRadius = "50%";
+  }, (boxes.length + index + 1) * 500);
+});
