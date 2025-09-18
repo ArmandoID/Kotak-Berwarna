@@ -10,5 +10,5 @@ boxes.forEach((box, index) => {
 boxes.forEach((box, index) => {
   setTimeout(() => {
     box.style.borderRadius = "50%";
-  }, (boxes.length + index + 1) * 500);
+  }, (boxes.length + index + 1) * 1000);
 });
